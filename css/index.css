@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 body {
   background-color: #fff;
@@ -71,4 +72,56 @@ button.search {
 
 button.search:hover {
   color: #fff;
+}
+
+.block-one {
+  max-height: 787px;
+}
+
+.block-one .container-fluid {
+  margin-left: 22px;
+}
+
+.block-one .col-5 {
+  padding: 0;
+}
+
+.yellow-line {
+  width: 78px;
+  height: 6px;
+  background-color: #ffc000;
+  margin-bottom: 44px;
+}
+
+.large-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: 3.2px;
+  color: #353535;
+  margin-bottom: 37px;
+  max-width: 490px;
+}
+
+.small-text {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.78;
+  color: #414141;
+  margin-bottom: 42px;
+  max-width: 460px;
+}
+
+.start-today {
+  width: 230px;
+  height: 62px;
+  border-radius: 5px;
+  background-color: #ff6c0e;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.17);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
